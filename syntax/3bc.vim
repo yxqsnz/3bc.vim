@@ -1,5 +1,5 @@
 sy case ignore 
-sy keyword _3bcKeyword STRC MODE NILL STRI PUSH PULL MATH PGTO ALOC ZGTO GOTO FGTO SKIP 
+sy keyword _3bcKeyword NILL MODE STRI FREE MATH GOTO NB02 STRC ALOC FGTO NB08 STRO MOFF PULL ZGTO NB10 STRX PGTO MUSE SPIN NB16 MMAX NGTO PUSH MMIN 
 sy match _3bcComment "\v\#.*" nextgroup=_3bcComment skipwhite
 sy match _3bcFuncName "\v:([A-z-0-9]*){2,}" nextgroup=_3bcFuncName
 sy match _3bcChar "\v'([^']*)" nextgroup=_3bcChar skipwhite
